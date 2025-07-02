@@ -32,8 +32,8 @@ The layout and button arrangement are inspired by the default Windows Calculator
 ### 1. Clone this Repository
 
 ```bash
-git clone https://github.com/your-username/angular-calculator.git
-cd angular-calculator
+git clone  https://github.com/Clifford537/angular_calculatorproject.git
+cd angular_calculatorproject
 ```
 
 ### 2. Install Dependencies
@@ -62,20 +62,8 @@ src/
 │       ├── calculator.component.ts
 │       ├── calculator.component.html
 │       ├── calculator.component.scss
-├── assets/
-│   └── calculator-screenshot.png   <-- Add your screenshot here
+
 ```
-
----
-
-## 📷 Adding a Screenshot
-
-Place a screenshot of your calculator UI in the following path:  
-```
-src/assets/calculator-screenshot.png
-```
-
-It will automatically show up in this README when viewed on GitHub or a markdown viewer.
 
 ---
 
