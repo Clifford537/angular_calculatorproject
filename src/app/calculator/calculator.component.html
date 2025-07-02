@@ -1,0 +1,35 @@
+<div class="calculator">
+  <div class="display">{{ displayValue() }}</div>
+
+  <div class="buttons">
+    <!-- Top Row -->
+    <button (click)="clearEntry()">CE</button>
+    <button (click)="clearAll()">C</button>
+    <button (click)="backspace()">⌫</button>
+    <button (click)="setOperator('/')">÷</button>
+
+    <!-- Row 2 -->
+    <button (click)="appendNumber(7)">7</button>
+    <button (click)="appendNumber(8)">8</button>
+    <button (click)="appendNumber(9)">9</button>
+    <button (click)="setOperator('*')">×</button>
+
+    <!-- Row 3 -->
+    <button (click)="appendNumber(4)">4</button>
+    <button (click)="appendNumber(5)">5</button>
+    <button (click)="appendNumber(6)">6</button>
+    <button (click)="setOperator('-')">−</button>
+
+    <!-- Row 4 -->
+    <button (click)="appendNumber(1)">1</button>
+    <button (click)="appendNumber(2)">2</button>
+    <button (click)="appendNumber(3)">3</button>
+    <button (click)="setOperator('+')">+</button>
+
+    <!-- Bottom Row -->
+    <button (click)="toggleSign()">+/-</button>
+    <button (click)="appendNumber(0)">0</button>
+    <button (click)="appendDot()">.</button>
+    <button (click)="calculateResult()">=</button>
+  </div>
+</div>
